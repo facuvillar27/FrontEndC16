@@ -1,0 +1,167 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+header section p {
+    font-size: 15px;
+    font-weight: 400;
+    background-color: #1CD1B0;
+    padding: 0px 20px;
+}
+
+.headerMid {
+    display: flex;
+    align-items: center;
+    background-color: #00669f;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.nombreTienda {
+    padding: 0px 20px;
+}
+
+.navHeader {
+    background-color: #001d2d ;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+nav ul li {
+    padding: 0px 5px;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    background-color: #00669f;
+    margin: 30px 200px;
+    padding: 10px 0px;
+    border-radius: 30px;
+    align-items: center;
+    color: white;
+}
+
+main section h1 {
+    font-size: 26px;
+    font-weight: 700;
+}
+
+main section h4 {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.nombreEspecie {
+    display: flex;
+    margin: 10px;
+    border-width: 0px;
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.nombreEspecie div {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 10px;
+}
+
+.nombreEspecie div input {
+    justify-self: stretch;
+    border-radius: 7px;
+    border-width: 0px;
+    height: 40px;
+    margin: 10px 0px;
+}
+
+.nombreEspecie div select {
+    justify-self: stretch;
+    border-radius: 7px;
+    border-width: 0px;
+    height: 40px;
+    margin: 10px 0px;
+}
+
+.fechaAgregarFoto {
+    display: flex;
+    margin: 10px;
+    border-width: 0px;
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.fechaAgregarFoto div {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.fechaAgregarFoto div input {
+    justify-self: stretch;
+    border-radius: 7px;
+    border-width: 0px;
+    height: 40px;
+    margin: 10px 0px;
+    padding: 0px 10px;
+}
+
+.agregarFoto {
+    display: flex;
+}
+
+.agregarFoto div {
+    width: 250px;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.descriptionPoderesTipo {
+    display: flex;
+    margin: 10px;
+    border-width: 0px;
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.descriptionPoderesTipo div {
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+    width: 50%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.descriptionPoderesTipo div div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 2px 0px;
+}
+
+.descriptionPoderesTipo div div div {
+    display: flex;
+    flex-direction: row;
+    padding-right: 10px;
+}
+
+.descriptionPoderesTipo div div div input {
+    padding-right: 30px;
+}
