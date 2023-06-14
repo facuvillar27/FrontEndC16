@@ -240,8 +240,10 @@ textarea {
     font-size: 26px;
     border-radius: 10px;
     border-width: 0px;
-    padding: 10px 120px;
+    padding: 10px;
     background-color: #1cd1b0;
+    padding: 10px 120px;
+    transition: background-color 0.3s ease;
 }
 
 footer {
@@ -250,4 +252,34 @@ footer {
     text-align: center;
     padding: 14px;
     font-size: 11px;
+}
+
+input[type="checkbox"]:checked {
+    transform: scale(1.4);
+}
+
+input[type="radio"]:checked {
+    transform: scale(1.4);
+  }
+
+input[type="text"]:valid {
+    border-color: rgb(49, 209, 49);
+    border-width: 3px;
+}
+
+input:invalid {
+    border-color: red;
+    border-width: 3px;
+}
+
+.buttonAniadir input {
+    border-width: 0px;
+}
+
+.nombreEspecie div label::before {
+    content: "*";
+}
+
+.buttonAniadir input:hover {
+    background-color: #0ca085;
 }
