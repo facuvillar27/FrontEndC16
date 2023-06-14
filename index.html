@@ -65,17 +65,18 @@
                 <div class="agregarFoto">
                     <label for="AgregarFoto">Agregar Foto</label>
                     <div>
-                        <input type="file">
+                        <input type="file" id="file-upload" class="file-input">
+                        <label for="file-upload" class="file-label">Seleccionar archivo</label>
                     </div>
                 </div>
             </fieldset>
             <fieldset class="descriptionPoderesTipo">
                 <div>
-                    <textarea name="Description" id="Description" cols="30" rows="20"
+                    <textarea class="description" name="Description" id="Description" cols="30" rows="12"
                         placeholder="Descripción"></textarea>
                 </div>
                 <div>
-                    <div>
+                    <div class="poderes">
                         <label for="Poderes">Poderes</label>
                         <div>
                             <input type="checkbox" name="Poderes" value="Volar">
@@ -83,7 +84,7 @@
                         </div>
                         <div>
                             <input type="checkbox" name="Poderes" value="Superinteligencia">
-                            Superinteligencia
+                            <p>Superinteligencia</p>
                         </div>
                         <div>
                             <input type="checkbox" name="Poderes" value="Vista de rayo láser">
@@ -91,20 +92,24 @@
                         </div>
                         <div>
                             <input type="checkbox" name="Poderes" value="Billetera gorda">
-                            Billetera gorda
+                            <p>Billetera gorda</p>
                         </div>
                     </div>
                     <hr>
-                    <div>
+                    <div class="tipo">
                         <label for="tipoDePersonaje">Tipo de personaje</label>
-                        <input type="radio" name="Tipo de personaje" value="Heroe-Heroina">
-                        Héroe/ Heroina
-                        <input type="radio" name="Tipo de personaje" value="Villano-Villana">
-                        Villano/ Villana
+                        <div>
+                            <input type="radio" name="Tipo de personaje" value="Heroe-Heroina">
+                            <p>Héroe/ Heroina</p>
+                        </div>
+                        <div>
+                            <input type="radio" name="Tipo de personaje" value="Villano-Villana">
+                            <p>Villano/ Villana</p>
+                        </div>
                     </div>
                 </div>
             </fieldset>
-            <fieldset>
+            <fieldset class="buttonAniadir">
                 <input type="submit" value="Añadir">
             </fieldset>
         </form>

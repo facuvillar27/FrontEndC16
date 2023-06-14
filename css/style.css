@@ -126,9 +126,34 @@ main section h4 {
 }
 
 .agregarFoto div {
-    width: 250px;
-    align-items: center;
-    padding-left: 30px;
+    width: 150px;
+    justify-items: center;
+    padding: 10px 0px;
+    margin: 7px 0px;
+}
+
+.file-input {
+    display: none;
+}
+
+.file-label {
+    font-size: 9px;
+    display: inline-block;
+    padding: 5px 5px;
+    background-color: #e9e9e9;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.file-label:hover {
+    background-color: #ccc;
+}
+  
+.file-label:active {
+    background-color: white;
 }
 
 .descriptionPoderesTipo {
@@ -149,11 +174,12 @@ main section h4 {
     box-sizing: border-box;
 }
 
+
 .descriptionPoderesTipo div div {
     display: flex;
     flex-direction: column;
     width: 100%;
-    padding: 2px 0px;
+    padding: 5px 0px;
 }
 
 .descriptionPoderesTipo div div div {
@@ -164,4 +190,64 @@ main section h4 {
 
 .descriptionPoderesTipo div div div input {
     padding-right: 30px;
+}
+
+
+.descriptionPoderesTipo div div label {
+    font-size: 16px;
+}
+
+.descriptionPoderesTipo div div p {
+    margin: 0px 0px 0px 15px;
+    font-size: 12px;
+}
+
+textarea {
+    border-radius: 10px;
+    padding: 10px;
+    resize: none;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.poderes {
+    padding: 0px 0px 10px 0px !important;
+}
+
+.tipo div {
+    display: flex;
+}
+
+.tipo label {
+    font-size: 16px;
+}
+
+.tipo {
+    display: flex;
+    margin-top: 12px;
+}
+
+.tipo div p {
+    font-size: 16px !important;
+}
+
+.buttonAniadir {
+    display: flex;
+    justify-content: center;
+    border-width: 0px;
+}
+
+.buttonAniadir input {
+    font-size: 26px;
+    border-radius: 10px;
+    border-width: 0px;
+    padding: 10px 120px;
+    background-color: #1cd1b0;
+}
+
+footer {
+    background-color: #00669f;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    font-size: 11px;
 }
